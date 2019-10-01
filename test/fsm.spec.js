@@ -187,7 +187,7 @@ describe('FSM', () => {
         });
 
         it('cancels undo', () => {
-            const student = new FSM(config);
+            const student = new FSM(config );
 
             student.trigger('study');
             student.undo();
